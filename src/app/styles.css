@@ -1,0 +1,35 @@
+/* app/styles.css */
+.container {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  width: 400px;
+  height: 200px;
+  background-image: url("/19931.jpg");
+  background-size: cover; /* Faz a imagem cobrir toda a div */
+  background-position: center; /* Centraliza a imagem */
+}
+
+.titulo {
+  font-family: neon, sans-serfi;
+  color: pink;
+  position: relative;
+  tex-align: center;
+  top: 80px;
+  left: 180px;
+  font-size: 24px;
+}
+
+.confirmation {
+  display: flex;
+  flex-direction: column !important;
+  align-items: center;
+  flex-wrap: nowrap;
+}
