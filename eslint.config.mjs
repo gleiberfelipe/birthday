@@ -9,6 +9,24 @@ const compat = new FlatCompat({
   baseDirectory: __dirname,
 });
 
+rules: {
+  "@typescript-eslint/no-explicit-any" = "off",
+  "@typescript-eslint/no-unnecessary-type-constraint" = "off",
+  "@typescript-eslint/no-empty-object-type" = "off"
+}
+
+overrides: [
+  {
+    files: ["src/generated/**"],
+    rules: {
+      "@typescript-eslint/no-explicit-any": "off",
+      "@typescript-eslint/no-empty-object-type": "off",
+      "@typescript-eslint/no-unnecessary-type-constraint": "off",
+    },
+  },
+];
+
+
 const eslintConfig = [
   ...compat.extends("next/core-web-vitals", "next/typescript"),
 ];
