@@ -24,7 +24,7 @@ export default function CheckInButton({
       .then((data) => {
         if (data.checkedIn) {
           setDisabled(true);
-          setStatus("Você já confirmou presença!");
+          setStatus("Voce ja confirmou presenca!");
         }
       })
       .catch((error) => {
