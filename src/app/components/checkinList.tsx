@@ -16,7 +16,7 @@ export default function CheckInList({ checkIns }: Props) {
   return (
     <div className="listBox">
       <h2 className="title">
-        Quem <span>ja </span>confirmou <span>presenca :</span>
+        Quem <span> ja </span>confirmou <span> presenca :</span>
       </h2>
       <ul className="list">
         {checkIns.map(({ id, firstName, lastName, createdAt }) => (

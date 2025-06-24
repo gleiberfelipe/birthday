@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import "./style.css";
 
 export default function MobileMenu() {
   const [isOpen, setIsOpen] = useState(false);
@@ -21,7 +22,7 @@ export default function MobileMenu() {
                 className="block px-4 py-3 text-black hover:bg-gray-100"
                 onClick={() => setIsOpen(false)}
               >
-                Confirmar presença
+                Confirmar presenca
               </Link>
             </li>
             <li>
@@ -30,7 +31,7 @@ export default function MobileMenu() {
                 className="block px-4 py-3 text-black hover:bg-gray-100"
                 onClick={() => setIsOpen(false)}
               >
-                Porks Casarão
+                Porks Casarao
               </Link>
             </li>
           </ul>
