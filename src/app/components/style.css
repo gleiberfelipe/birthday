@@ -21,16 +21,19 @@
 
   .SignIn {
     font-family: Neon, sans serif;
-    background: rgb(7, 6, 6);
+    background: rgb(0, 0, 0);
     border-color: rgb(218, 255, 11);
     color: rgb(24, 248, 3);
     font-size: 25px;
     padding: 15px;
+    padding-left: 38px;
+    padding-right: 38px;
     margin: 7.5px;
   }
 
-  .statusLogged.SignIn.disable {
-    text-color: rgba(19, 17, 17, 0.17);
+  .SignIn.disable {
+    text-color: red;
+    background-color: red !important;
   }
 
   .SingUp {

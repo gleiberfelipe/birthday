@@ -63,7 +63,7 @@ export default function CheckInButton({
           <span>fazer </span>check-in :
         </p>
         <SignInButton mode="modal">
-          <button className="SignIn">Entrar</button>
+          <button className="SignIn"> Entrar </button>
         </SignInButton>
         <SignUpButton mode="modal">
           <button className="SingUp">Cadastrar</button>
