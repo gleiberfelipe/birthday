@@ -8,7 +8,7 @@ export default function MobileMenu() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="relative z-50">
+    <div className="relative">
       <button onClick={() => setIsOpen(!isOpen)} className="button">
         ☰
       </button>
